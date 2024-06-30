@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://w0.peakpx.com/wallpaper/698/8/HD-wallpaper-virat-kohli-great-player-king-kohli-thumbnail.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(165, 42, 42, 0.295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://w0.peakpx.com/wallpaper/104/950/HD-wallpaper-virat-kohli-cricket-faces-happy-iamchiragrao-king-logo-smile-smiles-strong-thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+     width: 200px;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+   width: 40%;
+   min-height: inherit;
+   background-image: url(https://w0.peakpx.com/wallpaper/385/985/HD-wallpaper-virat-kohli-king-cricket-india-qutoes-saying-thumbnail.jpg)
+   
+  
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: blue;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+   width: 30%;
+   min-height: inherit;
+   display: flex;
+   flex-direction: column;
+   
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://w0.peakpx.com/wallpaper/348/776/HD-wallpaper-virat-kohli-winning-celebration-virat-kohli-winning-celebration-cricket-sports-king-kohli-thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://w0.peakpx.com/wallpaper/984/45/HD-wallpaper-cricket-ball-bails-football-sports-sports-equipment-thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 200%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+.b3{
+   width: 40%;
+   min-height: inherit;
+   background-image: url(https://w0.peakpx.com/wallpaper/917/296/HD-wallpaper-virat-kohli-with-headset-virat-kohli-headset-king-kohli-cricketer-sports-beard-look-thumbnail.jpg);
+   background-size: cover;
+   background-position: center;
+
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+   padding: 1.2vh;
+
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .text h1{
+      font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .rtext p{
+        margin-top: 10px;
+
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+       flex-direction: column;
+       align-items: self-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 up{
+        min-height: 30vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+}
